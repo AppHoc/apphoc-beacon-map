@@ -1,0 +1,15 @@
+{
+  "name": "apphoc-beacon-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "AppHocBeaconMap.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ondolin <developer@ondolin.de>",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "konva": "^7.1.8",
+    "vue": "^2.6.12"
+  }
+}
