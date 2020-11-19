@@ -1,4 +1,5 @@
 import {imageLayer} from "./layerManager";
+import {imageURL} from "../main";
 
 export function main() {
     let layer = imageLayer;
@@ -16,5 +17,5 @@ export function main() {
         layer.add(image);
         layer.batchDraw();
     };
-    imageObj.src = "https://mk0a2minutetabl7hq7i.kinstacdn.com/wp-content/uploads/2020/03/Dungeon-Jail-Prison-Battle-Map-Banner.jpg";
+    imageObj.src = imageURL;
 }
