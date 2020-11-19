@@ -9,6 +9,8 @@
   "author": "Ondolin <developer@ondolin.de>",
   "license": "AGPL-3.0",
   "dependencies": {
+    "apphoc-js-sdk": "git+https://github.com/AppHoc/apphoc-js-sdk.git",
+    "core-js": "^3.7.0",
     "konva": "^7.1.8",
     "vue": "^2.6.12"
   }

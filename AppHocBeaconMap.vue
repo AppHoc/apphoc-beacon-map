@@ -6,6 +6,7 @@
 <script>
 import {main} from "./logic/main"
 import Konva from "konva";
+import "./data"
 
 export default {
   name: "AppHocBeaconMap",
