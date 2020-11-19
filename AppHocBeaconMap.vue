@@ -4,6 +4,9 @@
   </div>
 </template>
 <script>
+import {main} from "./logic/main"
+import Konva from "konva";
+
 export default {
   name: "AppHocBeaconMap",
   mounted() {
@@ -15,6 +18,7 @@ export default {
       height: height,
       draggable: true
     });
+    main(stage);
   }
 }
 </script>
